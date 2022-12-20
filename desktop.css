@@ -1,0 +1,254 @@
+/* Encriptador - 1 Desktop */
+.main{
+position: relative;
+width: 1440px;
+height: 1024px;
+/* Light blue/light-blue-100 */
+background: #F3F5FC;
+}
+
+/* Rectangle 1 */
+.rectangulo-1{
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+/* Muñeco */
+.muñeco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+    }
+
+/* Frame 5 */
+/* Auto layout */
+.frame-5{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+position: absolute;
+width: 336px;
+height: 122px;
+left: 1032px;
+top: 619px;
+}
+
+/* Ningún mensaje fue encontrado */
+.ningun-mensaje{
+width: 336px;
+height: 58px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+text-align: center;
+/* Gray/gray-500 */
+color: #343A40;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/* Ingresa el texto que desees encriptar o desencriptar. */
+.ingrese-texto{
+width: 336px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+text-align: center;
+/* Gray/gray-400 */
+color: #495057;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+/* Logo */
+/* Auto layout */
+.logo{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 40px;
+}
+
+/* Ingrese el texto aqui */
+.texto{
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+}
+
+/* Frame 1 */
+/* Auto layout */
+.frame-1{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+position: absolute;
+width: 229px;
+height: 18px;
+left: 240px;
+top: 851px;
+}
+
+/* bi:exclamation-circle-fill */
+.vector{
+width: 16px;
+height: 16px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Solo letras minúsculas y sin acentos */
+.solo-min{
+width: 205px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+/* Gray/gray-400 */
+color: #495057;
+opacity: 0.8;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Frame 3 */
+.frame-3{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+position: absolute;
+width: 680px;
+height: 67px;
+left: 240px;
+top: 885px;
+}
+
+/* Button 1*/
+.boton-1{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Text Button 1*/
+.texto-boton-1{
+width: 280px;
+height: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+/* White */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+/* Button 2*/
+.boton-2{
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+/* Light gray */
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/*Text Button 2*/
+.texto-boton-2{
+width: 280px;
+height: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
