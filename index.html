@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="desktop.css">
     <title>Encriptador de texto</title>
+    <script src="index.js"></script>
 </head>
 
 <body>
 <!-- Encriptador 1 Desktop -->   
     <main class="main">
         <img src="img/Logo.svg" class="logo">
-        <div class="texto">Ingrese el texto aquí</div>
+        <input class="texto" placeholder="Ingrese el texto aquí" id="input-texto">
         <div class="rectangulo-1"></div>
         <div class="frame-5">
             <p class="ningun-mensaje">Ningún mensaje fue encontrado</p>
@@ -24,7 +25,7 @@
             <div class="solo-min">Solo letras minúsculas y sin acentos</div> 
         </div>
         <div class="frame-3">
-            <button class="boton-1">
+            <button class="boton-1" onclick="encriptar()">
                 <p class="texto-boton-1">Encriptar</p>
             </button>
             <button class="boton-2">
