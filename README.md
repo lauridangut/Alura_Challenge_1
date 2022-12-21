@@ -1,2 +1,2 @@
-# Allura_Challenge_1
+# Alura_Challenge_1
 Desafío 1 - Lógica de Programación
