@@ -18,6 +18,11 @@
         <div class="frame-5" id="frame-5">
             <p class="ningun-mensaje">Ningún mensaje fue encontrado</p>
             <p class="ingrese-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+            <section class="msg box">
+                <h2 id="mensaje-encriptado">Mensaje encriptado:</h2>
+                <input class="input-texto-salida" type="text" id="input-texto-salida">
+                <input class="btn" type="button" value="Copiar" id="btn-copy">
+              </section>
         </div>
         <img src="img/Muñeco.svg" class="muñeco" id="imagen">
         <div class="frame-1">
@@ -25,10 +30,10 @@
             <div class="solo-min">Solo letras minúsculas y sin acentos</div> 
         </div>
         <div class="frame-3">
-            <button class="boton-1" onclick="encriptar()">
+            <button type="button" class="boton-1" onclick="encriptar()" id="btn-encriptar">
                 <p class="texto-boton-1">Encriptar</p>
             </button>
-            <button class="boton-2">
+            <button type="button" class="boton-2" onclick="desencriptar()" id="btn-desencriptar">
                 <p class="texto-boton-2">Desencriptar</p>
             </button>
         </div>
