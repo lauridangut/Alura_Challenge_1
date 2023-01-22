@@ -10,43 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap"
         rel="stylesheet">
-    <!-- <script src="/script.js"></script> -->
-    <script type="text/javascript">
-        function btnEncriptar() {
-            let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-            var stringEncriptado = document.querySelector(".text-area").value.toLowerCase()
-            
-
-             for (let i = 0; i < matrizCodigo.length; i++) {
-                if (stringEncriptado.includes(matrizCodigo[i][0])) {
-                    stringEncriptado = stringEncriptado.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1])
-                }
-            }
-            
-            const result = stringEncriptado;
-            document.querySelector(".mensaje").value = result;
-            document.querySelector(".text-area").value = "";
-            document.querySelector(".mensaje").style.backgroundImage = "none";
-        }
-
-
-        function btnDesencriptar() {
-            let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-            var stringDesencriptado = document.querySelector(".mensaje").value
-            for (let i = 0; i < matrizCodigo.length; i++) {
-                if (stringDesencriptado.includes(matrizCodigo[i][1])) {
-                    stringDesencriptado = stringDesencriptado.replaceAll(matrizCodigo[i][1], matrizCodigo[i][0])
-                }
-            }
-            
-            const resultado = stringDesencriptado;
-            document.querySelector(".text-area").value = resultado;
-            document.querySelector(".mensaje").value = "";
-
-        }
-    </script>
+    <script src="/script.js"></script>
     <title>Encriptador de texto</title>
-
 </head>
 
 <body>
@@ -58,7 +23,7 @@
         <section>
             <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             <div>
-                <h6 class="informacion">Sólo letras minúsculas y sin acentos</h6>
+                <h6 class="informacion">&#9888; Sólo letras minúsculas y sin acentos.</h6>
             </div>
             <div class="botones">
                 <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
